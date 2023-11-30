@@ -106,26 +106,26 @@ img {
 
 /*introduction*/
 #introduction {
-    background-image: url(../images/meditation-4908955_1280.jpg);
+    background: linear-gradient(to bottom, #432, #fff);
     height: 270px;
     margin-bottom: 40px;
 }
 
 #introduction .page-title {
     text-align: center;
-    text-shadow: 0px 0px 10px #f1eac3;
+    text-shadow: 0px 0px 5px #f1eac3;
 }
 
 /*頁尾*/
 footer {
-    background: #432;
+    background: linear-gradient(to top, #432, #fff);
     text-align: center;
     padding: 26px 0;
 }
 
 footer p {
-    color: #fff;
-    font-size: 1.25rem;
+    color: #432;
+    font-size: 1.50rem;
 }
 
 /*主要區域*/
@@ -282,15 +282,11 @@ aside p {
     .post-title, .post-cat {
         margin-left: 80px;
     }
-    #introduction, #category, .main-nav a {
-        color: #f1eac3;
-        text-shadow: 0px 0px 2.5px #8b0304;
-    }
 }
 
 /*CATEGORY---------------------------------*/
 #category {
-    background-image: url(/category/images/old-2266104_1280.jpg)
+    background: linear-gradient(to bottom, #432, #fff);
 }
 .page-title {
     text-align: center;
@@ -348,7 +344,7 @@ aside p {
         padding: 0 4%; 
 }
 #introduction-pages {
-    background-image: url(../images/meditation-4908955_1280.jpg);
+    background: linear-gradient(to bottom, #432, #fff);
     height: 114px;
     margin-bottom: 40px;
 }

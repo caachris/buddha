@@ -74,7 +74,7 @@ img {
 /* 按鈕 */
 .button {
     font-size: 1.375rem;
-    background: #87888e;
+    background: #432;
     color: #fff;
     border-radius: 5px;
     padding: 18px 32px;
@@ -106,7 +106,7 @@ img {
 
 /*introduction*/
 #introduction {
-    background: linear-gradient(to bottom, #432, #fff);
+    background: radial-gradient(circle farthest-side, #fceabb, #f9eb8f);
     height: 270px;
     margin-bottom: 40px;
 }
@@ -118,7 +118,7 @@ img {
 
 /*頁尾*/
 footer {
-    background: linear-gradient(to top, #432, #fff);
+    background: radial-gradient(circle farthest-side, #fceabb, #f9eb8f);
     text-align: center;
     padding: 26px 0;
 }
@@ -178,6 +178,7 @@ article img {
 article p {
     font-size: 1.25rem;
     margin-bottom: 1rem;
+    color: black;
 }
 
 /*邊欄*/
@@ -282,11 +283,14 @@ aside p {
     .post-title, .post-cat {
         margin-left: 80px;
     }
+    article p {
+        font-size: 1.5rem;
+    }
 }
 
 /*CATEGORY---------------------------------*/
 #category {
-    background: linear-gradient(to bottom, #432, #fff);
+    background: radial-gradient(circle farthest-side, #fceabb, #f9eb8f);
 }
 .page-title {
     text-align: center;
@@ -344,7 +348,7 @@ aside p {
         padding: 0 4%; 
 }
 #introduction-pages {
-    background: linear-gradient(to bottom, #432, #fff);
+    background: radial-gradient(circle farthest-side, #fceabb, #f9eb8f);
     height: 114px;
     margin-bottom: 40px;
 }

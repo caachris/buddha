@@ -25,7 +25,7 @@ img {
 
 .main-nav {
     display: flex;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     list-style: none;
     margin-top: 34px;
 }
@@ -35,8 +35,11 @@ img {
 }
 
 .main-nav a {
-    color: rgb(28, 30, 12);
-    text-shadow: 0px 0px 10px #f1eac3;
+    color: #fff;
+    border-style: solid;
+    border-color: #432;
+    background-color: #432;
+    border-radius: 5px;
 }
 
 .main-nav a:hover {
@@ -234,7 +237,7 @@ aside p {
     }
     /*HEADER*/
     .main-nav {
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin-top: 10px;
     }
     .main-nav li {
